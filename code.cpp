@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// int main () {
+int main () {
     // int age=25;
     // char grade='A';
     // float  PI = 3.14f;
@@ -487,59 +487,4 @@ using namespace std;
 //         cout<<arr[i]<<" ";
 //     }
 //     cout<<endl;
-void calculator(){
-    int sum;
-    int product;
-   
-}
-int main(){
-     int arr1[]={1,2};
-     int arr2[]={2,3};
-     int result arr[];
-
-    calculator();
-    switch();
-    case 1:
-        sum=arr1[]+ arr2[];
-        return sum;
-        break;
-    case 2:
-    product=arr
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-     
-
- 
-
-        
-        
-    
-
-
-
-
-    return 0;
 }
