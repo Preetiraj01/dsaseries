@@ -1,6 +1,7 @@
 #include <iostream>
+#include<climits>
 using namespace std;
-int main () {
+// int main () {
     // int age=25;
     // char grade='A';
     // float  PI = 3.14f;
@@ -424,7 +425,8 @@ int main () {
 
 
     // .........ARRAY IN DATA STRUCTURE...................
-// int main(){
+int main()
+{
     // int marks[5]={90,95,100,105,110};
     // marks[0]=210;
     // cout<<marks[0]<<endl;
@@ -433,26 +435,28 @@ int main () {
     // cout<<marks[3]<<endl;
     // cout<<marks[4]<<endl;
     // int size=5;
-    // int sz=sizeof(marks)
+    // int sz=sizeof(marks);
     // cout<<sizeof(marks)/sizeof(int)<<endl;
     // // loops : 0 to size-1
     // for(int i=0;i<size;i++)
+    // {
+    //     cout<<marks[i]<<endl;
+    // }
+    int nums[]={5,15,22,1,-15,24};
+    int size=6;
+    int smallest = INT_MAX;
 
-//     int nums[]={5,15,22,1,-15,24};
-//     int size=6;
+    for(int i=0;i<size;i++)
+    {
+        if(nums[i] < smallest)
+        {
+            smallest = nums[i];
+        }
+    }
 
-//     int smallest = INT_MAX;
-
-//     for(int i=0;i<size;i++){
-//         if(nums[i] < smallest){
-//             smallest = nums[i];
-//         }
-//     }
-
-//     cout << smallest;
-
-//     return 0;
-// }
+    cout<<"The smallest number is:"<<smallest<<endl;
+    return 0;
+}
 // int linearsearch(int arr[],int sz,int target){
 //     for(int i=0;i<sz,i++) {
 //         if(arr[i] == traget){
@@ -487,4 +491,3 @@ int main () {
 //         cout<<arr[i]<<" ";
 //     }
 //     cout<<endl;
-}
